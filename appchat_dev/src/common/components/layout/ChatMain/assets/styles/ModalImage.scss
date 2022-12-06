@@ -1,0 +1,28 @@
+.image__modal {
+  img {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+}
+.image-modal__container {
+  border-radius: 5px;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: inherit;
+  }
+
+}
+
+
+.image__modal_message {
+  display: flex;
+
+  &.me {
+    justify-content: flex-end;
+  }
+}
